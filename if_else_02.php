@@ -1,13 +1,12 @@
 <?php
-/**Segundo script para treino de IF e ELSE em PHP
- * By Pedro Cruz */
+/** Script de teste IF e ELSE em PHP
+ * By Pedro Corin */
+$a = 3;
+$b = 2;
 
-//Variaveis numéricas
-$a = 2;
-$b = 1;
-
-// Verifica se $b é maior que $a
-if ($b > $a){
-    echo "$b é maior que $a";
+if($a < $b){
+    echo"$a é menor do que $b";
+}else{
+    echo"$a é maior do que $b";
 }
 ?>

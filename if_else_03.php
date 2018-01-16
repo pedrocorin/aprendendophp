@@ -1,15 +1,12 @@
 <?php
-/**Script teste de IF e ELSE em PHP
+/** Testando IF e ELSE em PHP
  * By Pedro Corin */
+$a = 3;
+$b = 6;
 
-//Variaveis numéricas
-$a = 2;
-$b = 1;
-$c = 2;
-
-//Verifica se $b é menor ou igual a $a e se $b é maior que $c
-if ($b <= $a && $b < $c){
-    echo"$b é menor ou igual a $a.<br>";
-    echo"<br>$b é menor que $c";
+if($a == $b){
+    echo"$a é igual a $b";
+}else{
+    echo"$a é menor que $b";
 }
 ?>
