@@ -3,5 +3,5 @@
  * inserindo comentários
  * by Pedro Cruz */
 
-echo "Hello World!!!"
+echo "Hello World!!!";
 ?>
