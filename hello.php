@@ -1,3 +1,7 @@
 <?php
-    echo "Hello World!!!"
+/**
+ * inserindo comentários
+ * by Pedro Cruz */
+
+echo "Hello World!!!"
 ?>
